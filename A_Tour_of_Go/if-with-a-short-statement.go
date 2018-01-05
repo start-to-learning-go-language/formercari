@@ -14,10 +14,10 @@ func pow(x, n, lim float64) float64 {
 
 func main() {
   fmt.Println(
-    pow(3,2,10)
-    pow(3,3,20)
+    pow(3,2,10),
+    pow(3,3,20),
   )
-  retunr v
+  return v
 }
 
 //ifステートメントは、forのように、条件の前に評価するための簡単なステートメントを書くことができる。
